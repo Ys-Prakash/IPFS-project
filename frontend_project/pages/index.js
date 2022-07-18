@@ -160,7 +160,7 @@ import { Contract, providers, utils } from "ethers";
       };
 
       return (
-        <div>
+        <div className={styles.bg}>
           <Head>
             <title>LW3Punks</title>
             <meta name="description" content="LW3Punks-Dapp" />
@@ -170,7 +170,7 @@ import { Contract, providers, utils } from "ethers";
             <div>
               <h1 className={styles.title}>Welcome to LW3Punks!</h1>
               <div className={styles.description}>
-                Its an NFT collection for LearnWeb3 students.
+                An NFT collection for the LearnWeb3 DAO community.
               </div>
               <div className={styles.description}>
                 {tokenIdsMinted}/10 have been minted
@@ -182,7 +182,7 @@ import { Contract, providers, utils } from "ethers";
             </div>
           </div>
 
-          <footer className={styles.footer}>Made with &#10084; by LW3Punks</footer>
+          <footer className={styles.footer}>Made with &#10084; by Prakash</footer>
         </div>
       );
     }

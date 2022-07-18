@@ -7,6 +7,10 @@
   font-family: "Courier New", Courier, monospace;
 }
 
+.bg {
+  background-color: #fbffb8
+}
+
 .footer {
   display: flex;
   padding: 2rem 0;
