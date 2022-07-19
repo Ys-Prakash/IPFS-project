@@ -11,6 +11,17 @@
   background-color: #fbffb8
 }
 
+.inlink {
+  display: inline-block;
+  margin-top: 5px;
+  border-radius: 4px;
+  color: white;
+  padding: 14px 25px;
+  background-color: blue;
+  text-align: center;
+  text-decoration: none;
+}
+
 .footer {
   display: flex;
   padding: 2rem 0;

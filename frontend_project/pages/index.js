@@ -166,6 +166,7 @@ import { Contract, providers, utils } from "ethers";
             <meta name="description" content="LW3Punks-Dapp" />
             <link rel="icon" href="/favicon.ico" />
           </Head>
+          <a className={styles.inlink} href="https://testnets.opensea.io/collection/lw3daopunks" target="_blank">View at OpenSea</a>
           <div className={styles.main}>
             <div>
               <h1 className={styles.title}>Welcome to LW3Punks!</h1>
